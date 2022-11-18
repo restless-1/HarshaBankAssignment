@@ -1,0 +1,507 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccountsMenu_Items_AddAccount" xml:space="preserve">
+    <value>Add Account</value>
+  </data>
+  <data name="AccountsMenu_Items_DeleteAccount" xml:space="preserve">
+    <value>Delete Account</value>
+  </data>
+  <data name="AccountsMenu_Items_Exit" xml:space="preserve">
+    <value>Back to Main Menu</value>
+  </data>
+  <data name="AccountsMenu_Items_UpdateAccount" xml:space="preserve">
+    <value>Update Account</value>
+  </data>
+  <data name="AccountsMenu_Items_ViewAccounts" xml:space="preserve">
+    <value>View Accounts</value>
+  </data>
+  <data name="AccountsMenu_Title" xml:space="preserve">
+    <value>Accounts</value>
+  </data>
+  <data name="AccountStatement_Errors_EndDateBeforeStartDate" xml:space="preserve">
+    <value>Account statement cancelled - end date is before start date</value>
+  </data>
+  <data name="AccountStatement_Notifications_Cancelled" xml:space="preserve">
+    <value>Account statement cancelled</value>
+  </data>
+  <data name="AccountStatement_Prompts_EndDate" xml:space="preserve">
+    <value>End Date (yyyy-mm-dd) [{0:yyyy-MM-dd}]</value>
+  </data>
+  <data name="AccountStatement_Prompts_StartDate" xml:space="preserve">
+    <value>Start Date (yyyy-mm-dd) [{0:yyyy-MM-dd}]</value>
+  </data>
+  <data name="AccountStatement_Statement_Header" xml:space="preserve">
+    <value>DATE         CREDITS         DEBITS          BALANCE         DESCRIPTION
+----------   -------------   -------------   -------------   -----------</value>
+  </data>
+  <data name="AccountStatement_Statement_Item" xml:space="preserve">
+    <value>{0:yyyy-MM-dd}   {1}   {2}   {3}   {4}</value>
+  </data>
+  <data name="AccountStatement_Statement_Item_StartingBalance" xml:space="preserve">
+    <value>                                             {0,13:F2}   Starting balance</value>
+  </data>
+  <data name="AccountStatement_Statement_NoMatches" xml:space="preserve">
+    <value>No transactions were made during the specified time period
+</value>
+  </data>
+  <data name="AccountStatement_Statement_Title" xml:space="preserve">
+    <value>
+
+Transactions for account {0} ({1}) from {2:yyyy-MM-dd} to {3:yyyy-MM-dd}
+</value>
+  </data>
+  <data name="AccountStatement_Title" xml:space="preserve">
+    <value>Account Statement</value>
+  </data>
+  <data name="AddAccount_Notifications_Added" xml:space="preserve">
+    <value>New Account Code: {0}
+Account Added</value>
+  </data>
+  <data name="AddAccount_Notifications_Cancelled" xml:space="preserve">
+    <value>Account creation cancelled</value>
+  </data>
+  <data name="AddAccount_Title" xml:space="preserve">
+    <value>Add Account</value>
+  </data>
+  <data name="AddCustomer_Notifications_Added" xml:space="preserve">
+    <value>New Customer Code: {0}
+Customer Added</value>
+  </data>
+  <data name="AddCustomer_Notifications_Cancelled" xml:space="preserve">
+    <value>Customer creation cancelled</value>
+  </data>
+  <data name="AddCustomer_Title" xml:space="preserve">
+    <value>Add Customer</value>
+  </data>
+  <data name="ApplicationConfiguration_Label_DataFilePath" xml:space="preserve">
+    <value>Data File Path (enter a space to clear this setting)</value>
+  </data>
+  <data name="Configuration_Notifications_Cancelled" xml:space="preserve">
+    <value>Configuration cancelled</value>
+  </data>
+  <data name="Configuration_Notifications_Updated" xml:space="preserve">
+    <value>Configuration was updated</value>
+  </data>
+  <data name="Configuration_Prompts_Confirm" xml:space="preserve">
+    <value>This will re-load application data - are you sure (yes or no)?</value>
+  </data>
+  <data name="Configuration_Title" xml:space="preserve">
+    <value>Configuration</value>
+  </data>
+  <data name="CustomersMenu_Items_AddCustomer" xml:space="preserve">
+    <value>Add Customer</value>
+  </data>
+  <data name="CustomersMenu_Items_DeleteCustomer" xml:space="preserve">
+    <value>Delete Customer</value>
+  </data>
+  <data name="CustomersMenu_Items_Exit" xml:space="preserve">
+    <value>Back to Main Menu</value>
+  </data>
+  <data name="CustomersMenu_Items_SearchCustomers" xml:space="preserve">
+    <value>Search Customers</value>
+  </data>
+  <data name="CustomersMenu_Items_UpdateCustomer" xml:space="preserve">
+    <value>Update Customer</value>
+  </data>
+  <data name="CustomersMenu_Items_ViewCustomers" xml:space="preserve">
+    <value>View Customers</value>
+  </data>
+  <data name="CustomersMenu_Title" xml:space="preserve">
+    <value>Customers</value>
+  </data>
+  <data name="DeleteAccount_Errors_NonZeroBalance" xml:space="preserve">
+    <value>Cannot delete account with non-zero balance</value>
+  </data>
+  <data name="DeleteAccount_Errors_NotFound" xml:space="preserve">
+    <value>The specified account does not exist</value>
+  </data>
+  <data name="DeleteAccount_Notifications_Cancelled" xml:space="preserve">
+    <value>Account deletion cancelled</value>
+  </data>
+  <data name="DeleteAccount_Notifications_Deleted" xml:space="preserve">
+    <value>Account was deleted</value>
+  </data>
+  <data name="DeleteAccount_Prompts_Confirm" xml:space="preserve">
+    <value>Delete account {0} ({1}) - yes or no?</value>
+  </data>
+  <data name="DeleteAccount_Title" xml:space="preserve">
+    <value>Delete Account</value>
+  </data>
+  <data name="DeleteCustomer_Errors_ActiveAccounts" xml:space="preserve">
+    <value>Cannot delete customer with active accounts</value>
+  </data>
+  <data name="DeleteCustomer_Errors_NotFound" xml:space="preserve">
+    <value>The specified customer does not exist</value>
+  </data>
+  <data name="DeleteCustomer_Notifications_Cancelled" xml:space="preserve">
+    <value>Customer deletion cancelled</value>
+  </data>
+  <data name="DeleteCustomer_Notifications_Deleted" xml:space="preserve">
+    <value>Customer was deleted</value>
+  </data>
+  <data name="DeleteCustomer_Prompts_Confirm" xml:space="preserve">
+    <value>Delete customer {0} ({1}) - yes or no?</value>
+  </data>
+  <data name="DeleteCustomer_Title" xml:space="preserve">
+    <value>Delete Customer</value>
+  </data>
+  <data name="Dialog_Errors_InvalidDate" xml:space="preserve">
+    <value>Invalid date</value>
+  </data>
+  <data name="Exit_Errors_Save" xml:space="preserve">
+    <value>An error was encountered saving application data: {0}</value>
+  </data>
+  <data name="Exit_Notifications_Exit" xml:space="preserve">
+    <value>Thank you! Visit again.</value>
+  </data>
+  <data name="FormControl_Errors_TypeConversion" xml:space="preserve">
+    <value>Value must be a {0}</value>
+  </data>
+  <data name="FundsTransferStatement_Errors_EndDateBeforeStartDate" xml:space="preserve">
+    <value>Funds transfer statement cancelled - end date is before start date</value>
+  </data>
+  <data name="FundsTransferStatement_Notifications_Cancelled" xml:space="preserve">
+    <value>Funds transfer statement cancelled</value>
+  </data>
+  <data name="FundsTransferStatement_Prompts_EndDate" xml:space="preserve">
+    <value>End Date (yyyy-mm-dd) [{0:yyyy-MM-dd}]</value>
+  </data>
+  <data name="FundsTransferStatement_Prompts_StartDate" xml:space="preserve">
+    <value>Start Date (yyyy-mm-dd) [{0:yyyy-MM-dd}]</value>
+  </data>
+  <data name="FundsTransferStatement_Statement_Header" xml:space="preserve">
+    <value>DATE         SOURCE CUSTOMER/ACCOUNT                    DESTINATION CUSTOMER/ACCOUNT               AMOUNT
+----------   ----------------------------------------   ----------------------------------------   -------------</value>
+  </data>
+  <data name="FundsTransferStatement_Statement_Item" xml:space="preserve">
+    <value>{0:yyyy-MM-dd}   {1}   {2}   {3,13:F2}
+             {4}   {5}
+</value>
+  </data>
+  <data name="FundsTransferStatement_Statement_Item_Actor" xml:space="preserve">
+    <value>{0} ({1})</value>
+  </data>
+  <data name="FundsTransferStatement_Statement_NoMatches" xml:space="preserve">
+    <value>No transactions were made during the specified time period
+</value>
+  </data>
+  <data name="FundsTransferStatement_Statement_Title" xml:space="preserve">
+    <value>
+
+Transactions from {0:yyyy-MM-dd} to {1:yyyy-MM-dd}
+</value>
+  </data>
+  <data name="FundsTransferStatement_Statement_TruncationIndicator" xml:space="preserve">
+    <value>...)</value>
+  </data>
+  <data name="FundsTransferStatement_Title" xml:space="preserve">
+    <value>Funds Transfer Statement</value>
+  </data>
+  <data name="FundsTransfer_Errors_InsufficientFunds" xml:space="preserve">
+    <value>Insufficient funds in source account</value>
+  </data>
+  <data name="FundsTransfer_Errors_InvalidAmount" xml:space="preserve">
+    <value>Amount must be a positive value with no more than two decimal places</value>
+  </data>
+  <data name="FundsTransfer_Errors_SourceAccountIsAlsoDestinationAccount" xml:space="preserve">
+    <value>Funds transfer cancelled - destination account must be different from the source account</value>
+  </data>
+  <data name="FundsTransfer_Notifications_Cancelled" xml:space="preserve">
+    <value>Funds transfer cancelled</value>
+  </data>
+  <data name="FundsTransfer_Notifications_Transferred" xml:space="preserve">
+    <value>Funds transferred:
+
+{0} ({1}):
+    {2} ({3}):
+        Old: {4:F2}
+        New: {5:F2}
+
+{6} ({7}):
+    {8} ({9}):
+        Old: {10:F2}
+        New: {11:F2}</value>
+  </data>
+  <data name="FundsTransfer_Prompts_Amount" xml:space="preserve">
+    <value>Amount ({0:F2} available)</value>
+  </data>
+  <data name="FundsTransfer_Prompts_Confirm" xml:space="preserve">
+    <value>
+Transfer {0:F2} - yes or no?</value>
+  </data>
+  <data name="FundsTransfer_Prompts_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="FundsTransfer_Prompts_DestinationAccount" xml:space="preserve">
+    <value>Destination Account:</value>
+  </data>
+  <data name="FundsTransfer_Prompts_SourceAccount" xml:space="preserve">
+    <value>Source Account:</value>
+  </data>
+  <data name="FundsTransfer_Title" xml:space="preserve">
+    <value>Funds Transfer</value>
+  </data>
+  <data name="Login_Notifications_CredentialsRejected" xml:space="preserve">
+    <value>Invalid username or password</value>
+  </data>
+  <data name="Login_Prompts_Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="Login_Prompts_UserName" xml:space="preserve">
+    <value>User Name</value>
+  </data>
+  <data name="Login_Title" xml:space="preserve">
+    <value>Login Page</value>
+  </data>
+  <data name="MainMenu_Items_Accounts" xml:space="preserve">
+    <value>Accounts</value>
+  </data>
+  <data name="MainMenu_Items_AccountStatement" xml:space="preserve">
+    <value>Account Statement</value>
+  </data>
+  <data name="MainMenu_Items_Configuration" xml:space="preserve">
+    <value>Configuration</value>
+  </data>
+  <data name="MainMenu_Items_Customers" xml:space="preserve">
+    <value>Customers</value>
+  </data>
+  <data name="MainMenu_Items_Exit" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="MainMenu_Items_FundsTransfer" xml:space="preserve">
+    <value>Funds Transfer</value>
+  </data>
+  <data name="MainMenu_Items_FundsTransferStatement" xml:space="preserve">
+    <value>Funds Transfer Statement</value>
+  </data>
+  <data name="MainMenu_Title" xml:space="preserve">
+    <value>Main</value>
+  </data>
+  <data name="MenuControl_Errors_InvalidChoice" xml:space="preserve">
+    <value>Invalid choice - please try again.</value>
+  </data>
+  <data name="MenuControl_Prompts_Choice" xml:space="preserve">
+    <value>Enter choice</value>
+  </data>
+  <data name="SearchCustomers_Notifications_Cancelled" xml:space="preserve">
+    <value>Customer search cancelled</value>
+  </data>
+  <data name="SearchCustomers_Notifications_NoMatches" xml:space="preserve">
+    <value>No matching customers were found</value>
+  </data>
+  <data name="SearchCustomers_Prompts_SearchTerm" xml:space="preserve">
+    <value>Search Term</value>
+  </data>
+  <data name="SearchCustomers_Title" xml:space="preserve">
+    <value>Search Customers</value>
+  </data>
+  <data name="SelectAccount_Errors_NotFound" xml:space="preserve">
+    <value>The specified account was not found</value>
+  </data>
+  <data name="SelectAccount_Notifications_NoMatches" xml:space="preserve">
+    <value>No matching accounts were found</value>
+  </data>
+  <data name="SelectAccount_Notifications_Selected" xml:space="preserve">
+    <value>Account: {0} ({1})</value>
+  </data>
+  <data name="SelectAccount_Prompts_SearchTerm" xml:space="preserve">
+    <value>Account Code or Search Term (prefix with "c:" to search by customer)</value>
+  </data>
+  <data name="SelectAccount_Title" xml:space="preserve">
+    <value>Select Account</value>
+  </data>
+  <data name="SelectControl_Errors_InvalidChoice" xml:space="preserve">
+    <value>Invalid choice - please try again</value>
+  </data>
+  <data name="SelectControl_Headers_Page" xml:space="preserve">
+    <value>
+******** {0}page {1} / {2} ********
+</value>
+  </data>
+  <data name="SelectControl_Menu_Exit" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="SelectControl_Menu_NextPage" xml:space="preserve">
+    <value>Next Page</value>
+  </data>
+  <data name="SelectControl_Menu_PreviousPage" xml:space="preserve">
+    <value>Previous Page</value>
+  </data>
+  <data name="SelectControl_Prompts_Choice" xml:space="preserve">
+    <value>Enter choice</value>
+  </data>
+  <data name="SelectCustomer_Errors_NotFound" xml:space="preserve">
+    <value>The specified customer does not exist</value>
+  </data>
+  <data name="SelectCustomer_Notifications_NoMatches" xml:space="preserve">
+    <value>No matching customers were found</value>
+  </data>
+  <data name="SelectCustomer_Notifications_Selected" xml:space="preserve">
+    <value>Customer: {0} ({1})</value>
+  </data>
+  <data name="SelectCustomer_Prompts_SearchTerm" xml:space="preserve">
+    <value>Customer Code or Search Term</value>
+  </data>
+  <data name="SelectCustomer_Title" xml:space="preserve">
+    <value>Select Customer</value>
+  </data>
+  <data name="Startup_Errors_Load" xml:space="preserve">
+    <value>An error was encountered loading application data: {0}</value>
+  </data>
+  <data name="Startup_Title" xml:space="preserve">
+    <value>Harsha Bank</value>
+  </data>
+  <data name="UpdateAccount_Errors_NotFound" xml:space="preserve">
+    <value>The specified account does not exist</value>
+  </data>
+  <data name="UpdateAccount_Notifications_Cancelled" xml:space="preserve">
+    <value>Account update cancelled</value>
+  </data>
+  <data name="UpdateAccount_Notifications_Updated" xml:space="preserve">
+    <value>Account was updated</value>
+  </data>
+  <data name="UpdateAccount_Title" xml:space="preserve">
+    <value>Update Account</value>
+  </data>
+  <data name="UpdateCustomer_Errors_NotFound" xml:space="preserve">
+    <value>The specified customer does not exist</value>
+  </data>
+  <data name="UpdateCustomer_Notifications_Cancelled" xml:space="preserve">
+    <value>Customer update cancelled</value>
+  </data>
+  <data name="UpdateCustomer_Notifications_Updated" xml:space="preserve">
+    <value>Customer was updated</value>
+  </data>
+  <data name="UpdateCustomer_Title" xml:space="preserve">
+    <value>Update Customer</value>
+  </data>
+  <data name="ViewAccounts_Notifications_NoMatches" xml:space="preserve">
+    <value>There are no active accounts</value>
+  </data>
+  <data name="ViewAccounts_Title" xml:space="preserve">
+    <value>View Accounts</value>
+  </data>
+  <data name="ViewCustomers_Notifications_NoMatches" xml:space="preserve">
+    <value>There are no active customers</value>
+  </data>
+  <data name="ViewCustomers_Title" xml:space="preserve">
+    <value>View Customers</value>
+  </data>
+</root>
